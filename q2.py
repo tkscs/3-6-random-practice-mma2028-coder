@@ -1,14 +1,16 @@
 # Make a random pet.
-
+import random
 # Choose:
 # Type of animal (at least 3 choices, string)
-animal = None#REPLACE THIS WITH YOUR CODE
+animal = "Dog", "snake", "dragon"
 # Age (integer)
-age = None#REPLACE THIS WITH YOUR CODE
+age = "1", "50", "24"
 # Color (at least 3 choices, string)
-animal = None#REPLACE THIS WITH YOUR CODE
+color = "brown", "black", "Blue"
 # Weight (float)
-weight = None#REPLACE THIS WITH YOUR CODE
-
+weight = "150", "10", "40"
 # Print a summary of your pet using an f-string
-print(f"Your pet is a {animal}")#REPLACE THIS WITH YOUR CODE
+print(f"my pet is a {random.choice(animal)}.")
+print(f"my pet is {random.choice(age)} years old.")
+print(f"my pet is {random.choice(color)}.")
+print(f"my pet weighs {random.choice(weight)} pounds.")
